@@ -18,4 +18,8 @@ public class AzureSpringDemoImplApplication {
 		return "Congrats ! Your application is successfully deployed !";
 	}
 
+	@GetMapping("/")
+	public String messageDemo(){
+		return "Congrats !! Your application is successfully deployed !";
+	}
 }
